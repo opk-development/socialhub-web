@@ -29,3 +29,5 @@ header p{color:var(--muted);margin-top:6px}
 .name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 footer{text-align:center;color:var(--muted);font-size:.875rem;margin-top:24px}
 .note{text-align:center;color:var(--muted)}
+.group+.group{margin-top:clamp(20px,5vw,32px)}
+.group h2{font-size:.875rem;font-weight:700;letter-spacing:.02em;color:var(--muted);margin:0 4px 10px}
