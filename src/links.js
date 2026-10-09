@@ -1,5 +1,5 @@
 window.SOCIALHUB = {
-  title: "SocialHub",
+  title: "NTK SocialHub",
   groups: [
     {
       title: "ติดต่อ",
@@ -11,16 +11,16 @@ window.SOCIALHUB = {
       ]
     },
     {
-      title: "โปรเจ็กต์",
-      links: [
-        { name: "GitHub", url: "https://github.com/opk-development", icon: "assets/icons/github.svg" }
-      ]
-    },
-    {
       title: "สื่อบันเทิง",
       links: [
         { name: "YouTube", url: "https://www.youtube.com/@opk-development-media", icon: "assets/icons/youtube.svg" },
         { name: "TikTok", url: "https://www.tiktok.com/@nattha_peg", icon: "assets/icons/tiktok.svg" }
+      ]
+    },
+    {
+      title: "โปรเจ็กต์",
+      links: [
+        { name: "GitHub", url: "https://github.com/opk-development", icon: "assets/icons/github.svg" }
       ]
     }
   ]
