@@ -40,7 +40,7 @@
 
 @font-face{
   font-family:"Anuphan";
-  src:url("/assets/fonts/Anuphan-Medium.ttf") format("truetype");
+  src:url("/socialhub-web/assets/fonts/Anuphan-Medium.ttf") format("truetype");
   font-weight:500;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
 
 @font-face{
   font-family:"Anuphan";
-  src:url("/assets/fonts/Anuphan-Bold.ttf") format("truetype");
+  src:url("/socialhub-web/assets/fonts/Anuphan-Bold.ttf") format("truetype");
   font-weight:700;
   font-style: normal;
   font-display: swap;
