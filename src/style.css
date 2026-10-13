@@ -6,62 +6,6 @@
   color-scheme:light dark
 }
 
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-Thin.ttf") format("truetype");
-  font-weight:100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-ExtraLight.ttf") format("truetype");
-  font-weight:200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-Light.ttf") format("truetype");
-  font-weight:300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-Regular.ttf") format("truetype");
-  font-weight:400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-Medium.ttf") format("truetype");
-  font-weight:500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-SemiBold.ttf") format("truetype");
-  font-weight:600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face{
-  font-family:"Anuphan";
-  src:url("/socialhub-web/assets/fonts/Anuphan-Bold.ttf") format("truetype");
-  font-weight:700;
-  font-style: normal;
-  font-display: swap;
-}
-
 @media (prefers-color-scheme:dark){
   :root
   {
@@ -70,6 +14,22 @@
   --sub:#888;
   --line:#2a2a2a
   }
+}
+
+@font-face{
+  font-family:"Anuphan";
+  src:url("/socialhub-web/assets/fonts/Anuphan/woff2/Anuphan-Medium.woff2") format("woff2");
+  font-weight:500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family:"Anuphan";
+  src:url("/socialhub-web/assets/fonts/Anuphan/woff2/Anuphan-Bold.woff2") format("woff2");
+  font-weight:700;
+  font-style: normal;
+  font-display: swap;
 }
 
 *{box-sizing:border-box;margin:0}
@@ -135,6 +95,7 @@ h2{
   outline:2px solid var(--fg);
   outline-offset:2px
 }
+
 @media (hover:hover){
   .card:hover{
     border-color:var(--fg)
