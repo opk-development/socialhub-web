@@ -20,7 +20,8 @@ window.SOCIALHUB = {
     {
       title: "โปรเจ็กต์",
       links: [
-        { name: "GitHub", url: "https://github.com/opk-development", icon: "assets/icons/github.svg" }
+        { name: "GitHub", url: "https://github.com/opk-development", icon: "assets/icons/github.svg" },
+        { name: "Google Play", url: "https://play.google.com/store/apps/dev?id=7806995936751444554", icon: "assets/icons/googleplay.svg" }
       ]
     }
   ]
