@@ -22,7 +22,7 @@ window.SOCIALHUB = {
       links: [
         { name: "GitHub", url: "https://github.com/opk-development", icon: "assets/icons/github.svg" },
         { name: "Google Play", url: "https://play.google.com/store/apps/dev?id=7806995936751444554", icon: "assets/icons/googleplay.svg" },
-        { name: "itch.io", url: "https://opk-nattha.itch.io/", icon: "assets/icons/itchio.svg" }
+        { name: "itch.io", url: "https://nlopk.itch.io/", icon: "assets/icons/itchio.svg" }
       ]
     }
   ]
